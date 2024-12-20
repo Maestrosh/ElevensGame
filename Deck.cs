@@ -61,7 +61,10 @@ public class Deck
     /// <exception cref="InvalidOperationException">Thrown when the deck is empty.</exception>
     public Card Deal()
     {
-        if (cards.Count == 0) throw new InvalidOperationException("The deck is empty.");
+        if (cards.Count == 0)
+        {
+            throw new InvalidOperationException("The deck is empty.");
+        } 
         Card dealtCard = cards[^1];
         cards.RemoveAt(cards.Count - 1);
         return dealtCard;
