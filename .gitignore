@@ -40,3 +40,4 @@ msbuild.wrn
 .replit
 /.upm
 replit_zip_error_log.txt
+*.sln
