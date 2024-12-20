@@ -42,7 +42,7 @@ This implementation is written in C# and provides a simple console-based gamepla
 ### Installation
 ```bash
 # Clone the repository
-git clone <[repository_url](https://github.com/Maestrosh/ElevensGame.git)>
+git clone <https://github.com/Maestrosh/ElevensGame.git>
 cd elevens-card-game
 
 # Compile and run
